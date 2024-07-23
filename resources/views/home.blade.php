@@ -1,9 +1,6 @@
 <x-layout>
-    <div>
-        hello world!
-        <livewire:counter></livewire:counter>
-        @livewire('clicker')
+        {{-- <livewire:counter></livewire:counter> --}}
+        {{-- @livewire('clicker') --}}
         {{-- <livewire:clicker/> --}}
-    </div>
-
+        @livewire('todo-list')
 </x-layout>
